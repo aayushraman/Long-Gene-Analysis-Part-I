@@ -10,7 +10,6 @@ The following repo consists of only R scripts used in the project. Please downlo
 
 ## Example of running overlap plot
 ```R
-
 ## libraries
 library(cowplot)
 library(DESeq2)
@@ -24,7 +23,7 @@ source("src/SEQC_logofMeans.R")
 source("src/readGEO.R")
 
 ## dat file
-counts.table <- read.table(file = "Cere.counts.table_mm10.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
+counts.table <- read.table(file = "example_dat/Cere.counts.table_mm10.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 rownames(counts.table) <- counts.table$ENSEMBL.ID
 counts.table$gene.length <- counts.table$end - counts.table$start + 1
 
@@ -54,6 +53,7 @@ p3 <- plot_grid(p3$plot1 + coord_cartesian(ylim = c(-0.25, 0.25)),
                 align = 'v') + theme(plot.margin = unit(c(1,0.5,0.5,0.5), "cm"))
 p3
 ```
+![alt text](https://github.com/aayushraman/Long-Gene-Analysis-Part-I-/blob/master/example_dat/example_overlap-plot.png)
 
 
 ## References:
