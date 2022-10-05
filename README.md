@@ -55,6 +55,18 @@ p3
 ```
 <img src="https://github.com/aayushraman/Long-Gene-Analysis-Part-I-/blob/master/example_dat/example_overlap-plot.png" width="500" height="500">
 
+```R
+sessionInfo()
+
+## Output:
+## R version 3.4.3 (2017-11-30)
+## Platform: x86_64-apple-darwin15.6.0 (64-bit)
+## Running under: macOS Sierra 10.12.6
+
+```
+
+*Please check the [src/run_code.pdf](https://github.com/aayushraman/Long-Gene-Analysis-Part-I/blob/master/src/run_code.pdf) for the version of all the packages used for the analyses*.
+
 ## References:
 
 1. **AT Raman***, AE Pohodich*, YW Wan, HK Yalamanchili, HY Zoghbi, Z Liu. Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations. [*Nature Communications* (2018)](https://www.nature.com/articles/s41467-018-05627-1) (PMID: 30104565)
