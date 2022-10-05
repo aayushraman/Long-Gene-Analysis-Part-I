@@ -44,7 +44,7 @@ res.KO <- results(dds, contrast = c("genotypes", "KO", "WT"))
 res.KO$norm.counts <- counts(dds, normalized = TRUE)
 res.KO.annot <- inner_join(x = data.frame(res.KO) %>% tibble::rownames_to_column(var = "ENSEMBL.ID"), y = counts.table[, c(1, 8:14)], by = "ENSEMBL.ID")
 
-## Overlay plots (**case of when n = 3 per genotype**)
+## Overlay plots (case of when n = 3 per genotype)
 res.KO.annot <- logofMeans.between.A.B(res.KO.annot, A.samples = c(11:13), B.samples = c(8:10))
 res.KO.annot$comp.mat1 <- apply(X = data.frame(res.KO.annot[,c(11:13)]), 1, function(r) {log2((r[3] + 1)/(r[1] + 1))})
 p3 <- overlay.gabels.plot(mat = res.KO.annot[,c("comp.mat1", "logFC.crude", "gene.length")], comp.between1 = "(WT/WT)",comp.between2 = "(KO/WT)")
