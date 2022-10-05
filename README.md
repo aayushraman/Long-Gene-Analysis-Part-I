@@ -1,6 +1,6 @@
 # Long Gene Analysis (Part I)
 
-Code/Datasets used in the *Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations* project.
+Code/Datasets used in the **Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations** project.
 
 -- Dataset: RNA-seq and NanoString datasets that support the findings of this study have been deposited in the Gene Expression Omnibus (GEO) database with the accession codes as follows: [GSE94073](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94073), [GSE105047](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105047), and [GSE107399](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE107399). GEO accession codes and details of all the public datasets used in this manuscript are available in Supplementary Data 1 table of the paper.  
 
@@ -11,6 +11,6 @@ The following repo consists of only R scripts used in the project. Please downlo
 
 ## References:
 
-1. AT Raman*, AE Pohodich*, YW Wan, HK Yalamanchili, HY Zoghbi, Z Liu. Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations. [**Nature Communications** (2018)](https://www.nature.com/articles/s41467-018-05627-1) (PMID: 30104565)
+1. AT Raman*, AE Pohodich*, YW Wan, HK Yalamanchili, HY Zoghbi, Z Liu. Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations. [*Nature Communications* (2018)](https://www.nature.com/articles/s41467-018-05627-1) (PMID: 30104565)
 
-2. AT Raman. A research parasite’s perspective on establishing a baseline to avoid errors in secondary analyses. [**GigaScience** (2021)](https://academic.oup.com/gigascience/article/10/3/giab015/6168809) (PMID: 33710326)
+2. AT Raman. A research parasite’s perspective on establishing a baseline to avoid errors in secondary analyses. [*GigaScience* (2021)](https://academic.oup.com/gigascience/article/10/3/giab015/6168809) (PMID: 33710326)
