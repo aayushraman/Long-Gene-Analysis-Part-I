@@ -1,0 +1,107 @@
+---
+title: "Long gene analysis in gene expression datasets"
+author: "Ayush T Raman, Liu Lab, Baylor College of Medicine"
+date: '`r Sys.Date()`'
+output:
+  html_document:
+    self_contained: no
+    theme: cerulean
+    toc: yes
+    toc_depth: 4
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## Section 1: Introduction
+
+The code and the graphs are attached below.
+
+------------------------------------------------------------------------
+
+## Section 2: Libraries and all functions
+
+```{r message=FALSE}
+rm(list = ls())
+
+## functions and set the working directory
+source("libraries.R")
+options(warn=-1)
+```
+
+------------------------------------------------------------------------
+
+## Section 3: Figure 1 and Supplementary Figure 2-4
+
+```{r message=FALSE, fig.width=6, fig.height=6}
+cat("\n\n Printing Figure 1 \n\n")
+figure1()
+cat("\n\n Printing Supplementary Fig. 2 \n\n")
+figureS2()
+cat("\n\n Printing Supplementary Fig. 3 \n\n")
+figureS3()
+cat("\n\n Printing Supplementary Fig. 4 \n\n")
+figureS4()
+```
+
+------------------------------------------------------------------------
+
+## Section 4: Figure 2
+
+```{r message=FALSE, fig.width=6, fig.height=6}
+cat("\n\n Printing Figure 2 \n\n")
+figure2()
+```
+
+------------------------------------------------------------------------
+
+## Section 5: Figure 3 and Supplementary Figure 5
+
+```{r message=FALSE, fig.width=6, fig.height=6}
+cat("\n\n Printing Fig. 3 \n\n")
+figure3()
+cat("\n\n Printing Supplementary Fig. 5 \n\n")
+figureS5()
+```
+
+------------------------------------------------------------------------
+
+## Section 6: Figure 4 and Supplementary Fig. 6-9 
+
+```{r message=FALSE, fig.width=8, fig.height=8}
+cat("\n\n Printing Fig. 4 \n\n")
+figure4()
+cat("\n\n Printing Supplementary Fig. 6 \n\n")
+figureS6()
+cat("\n\n Printing Supplementary Fig. 7 \n\n")
+figureS7()
+cat("\n\n Printing Supplementary Fig. 8 \n\n")
+figureS8()
+cat("\n\n Printing Supplementary Fig. 9 \n\n")
+figureS9()
+```
+
+------------------------------------------------------------------------
+
+## Section 7: Figure 5 and Supplementary Fig. 10
+
+```{r message=FALSE, fig.width=8, fig.height=8}
+cat("\n\n Printing Fig. 5 \n\n")
+figure5()
+cat("\n\n Printing Supplementary Fig. 10 \n\n")
+figureS10()
+```
+
+------------------------------------------------------------------------
+
+## Section 8: Session info
+
+```{r}
+sessionInfo()
+```
