@@ -6,6 +6,11 @@ Code/Datasets used in the *Apparent bias towards long gene misregulation in MeCP
 
 -- The entire workspace including scripts/processed datasets to reproduce all the results/plots used in this manuscript is available on [zenodo](https://doi.org/10.5281/zenodo.1226607).
 
--- Manuscript: AT Raman*, AE Pohodich*, YW Wan, HK Yalamanchili, HY Zoghbi, Z Liu. Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations. [**Nature Communications** (2018)]((https://www.nature.com/articles/s41467-018-05627-1)) (PMID: 30104565)
+The following repo consists of only R scripts used in the project. Please download the dat/dat-infofiles/results directories from the zenodo workspace to reporduce the plots. Please contact me directly at aayushraman09@gmail.com if you have any questions/comments regarding the "overlap plots". We are currently working on the R package.
 
-The following repo consists of only R scripts. Please download the dat/dat-infofiles/results directories from the zenodo workspace to reporduce the plots. Please contact me directly at aayushraman09@gmail if you have any questions/comments regarding the "overlap plots". We are currently working on the R package.
+
+## References:
+
+1. AT Raman*, AE Pohodich*, YW Wan, HK Yalamanchili, HY Zoghbi, Z Liu. Apparent bias towards long gene misregulation in MeCP2 syndromes disappears after controlling for baseline variations. [**Nature Communications** (2018)]((https://www.nature.com/articles/s41467-018-05627-1)) (PMID: 30104565)
+
+2. AT Raman. A research parasite’s perspective on establishing a baseline to avoid errors in secondary analyses. [**GigaScience** (2021)](https://academic.oup.com/gigascience/article/10/3/giab015/6168809) (PMID: 33710326)
